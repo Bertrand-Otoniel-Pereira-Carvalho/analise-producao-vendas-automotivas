@@ -25,12 +25,12 @@ O relatório tem 3 páginas:
 ### 1. Resumo
 Visão executiva com cards de KPI, tabela dinâmica de vendas, produção total por ano e veículo, evolução do preço médio unitário por ano e veículo, e funis comparando venda e produção por modelo. Filtros por sede, modelo, gerência, cidade e data.
 
-![Página Resumo](images/pagina-resumo.png)
+![Página Resumo](imagens/pagina-resumo.png)
 
 ### 2. Análise de Dados
 Aprofundamento com funis complementares, gráfico de área empilhada mostrando evolução no tempo, e um mapa geográfico com a produção mapeada por localização.
 
-![Página Análise de Dados](images/pagina-analise-dados.png)
+![Página Análise de Dados](imagens/pagina-analise-dados.png)
 
 ### 3. Decomposição Venda/Produção
 Duas árvores de decomposição interativas, permitindo detalhar o total de vendas e o total de produção por qualquer combinação de dimensões (veículo, local, período).
@@ -39,10 +39,11 @@ Duas árvores de decomposição interativas, permitindo detalhar o total de vend
 
 ## Principais insights
 
-[PREENCHER: liste de 3 a 5 descobertas concretas que o dashboard revelou, por exemplo:]
-- [PREENCHER: ex. "O modelo X respondeu por Y% da produção total, mas apenas Z% das vendas no período, indicando possível excesso de estoque."]
-- [PREENCHER: ex. "A região X apresentou o maior preço médio unitário, enquanto a região Y teve o maior volume de vendas."]
-- [PREENCHER: ex. "Observou-se sazonalidade na produção entre os meses X e Y."]
+- Veículo 4 domina o portfólio: sozinho representa 62% da receita total (R$ 23,99 Bi de um total geral de R$ 38,56 Bi) — mais que a soma dos outros 4 modelos juntos.
+- Preço alto não significa volume alto: o Veículo 5 tem o maior preço médio unitário do portfólio, mas responde por apenas ~7% da receita total. Já o Veículo 4, com preço um pouco menor, compensa com volume muito superior e por isso lidera o faturamento — indicando que a estratégia de receita da empresa é puxada por volume, não por ticket médio.
+- Pico em 2019, queda nos anos seguintes: a receita total cresceu de R$ 3,13 Bi (2016) para R$ 9,82 Bi (2019) — alta de ~213% em 4 anos —, mas caiu para R$ 6,89 Bi em 2021, uma retração de ~30% frente ao pico. A produção segue o mesmo padrão no gráfico de área, sugerindo desaceleração conjunta de produção e vendas após 2019 (vale investigar se há relação com o cenário de 2020).
+- Veículo 3 é o modelo menos relevante da linha: menor receita em todos os anos, apenas 2,4% de participação no total, e queda de ~71% entre 2018 (R$ 201 Mi) e 2021 (R$ 58 Mi) — candidato natural a revisão de portfólio.
+- Concentração geográfica em Curitiba/PR: a cidade e o estado lideram disparadamente a produção nacional, à frente de Belo Horizonte e Rio de Janeiro. Chama atenção São Paulo aparecer com a menor produção mapeada, apesar de ser historicamente o maior polo automotivo do país — um ponto interessante para explorar em uma entrevista (ociosidade de capacidade? decisão estratégica de descentralização?).
 
 ## Tecnologias utilizadas
 
@@ -53,10 +54,10 @@ Duas árvores de decomposição interativas, permitindo detalhar o total de vend
 
 ## Como visualizar
 
-- Arquivo original: [`dashboard.pbix`](./dashboard.pbix) — abra no Power BI Desktop (gratuito) para navegar de forma interativa
-- Versão estática: [`relatorio.pdf`](./relatorio.pdf) — para visualização rápida sem precisar instalar o Power BI
+- Arquivo original: [`dashboard.pbix`](./Análise de Produção e Vendas Automotivas.pbix) — abra no Power BI Desktop (gratuito) para navegar de forma interativa
+- Versão estática: [`relatorio.pdf`](./Dashboard.pdf) — para visualização rápida sem precisar instalar o Power BI
 
 ## Autor
 
 **Bertrand Otoniel Pereira Carvalho**
-[LinkedIn](https://www.linkedin.com/in/bertrandotoniel) · [GitHub](https://github.com/Bertrand-Otoniel-Pereira-Carvalho)
+[LinkedIn](https://www.linkedin.com/in/bertrand-otoniel/) · [GitHub](https://github.com/Bertrand-Otoniel-Pereira-Carvalho)
