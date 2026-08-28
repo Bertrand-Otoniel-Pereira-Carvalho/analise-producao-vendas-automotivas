@@ -4,7 +4,7 @@ Dashboard em Power BI para análise de produção e vendas de veículos, cruzand
 
 ## Problema de negócio
 
-[PREENCHER: descreva em 2-3 frases a pergunta de negócio que motivou o dashboard — ex.: "A empresa precisava entender se o volume de produção estava alinhado à demanda de vendas por região e modelo de veículo, e identificar onde havia gargalos ou excedentes."]
+A empresa precisava entender se o volume de produção estava alinhado à demanda de vendas por região e modelo de veículo, e identificar onde havia gargalos ou excedentes.
 
 ## Estrutura dos dados
 
@@ -35,7 +35,7 @@ Aprofundamento com funis complementares, gráfico de área empilhada mostrando e
 ### 3. Decomposição Venda/Produção
 Duas árvores de decomposição interativas, permitindo detalhar o total de vendas e o total de produção por qualquer combinação de dimensões (veículo, local, período).
 
-![Página Decomposição](images/pagina-decomposicao.png)
+![Página Decomposição](imagens/pagina-decomposicao.png)
 
 ## Principais insights
 
